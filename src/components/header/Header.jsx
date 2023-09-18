@@ -4,10 +4,11 @@ import "./Header.css";
 const Header = () => {
   document.addEventListener("mousemove", (e) => {
     Object.assign(document.documentElement, {
-      style: `--deg-X: ${((e.clientX - window.innerWidth) / 2) * -.005}deg; 
-            --deg-Y: ${((e.clientY - window.innerHeight) / 2) * -.01}deg;`,
+      style: `--deg-X: ${((e.clientX - window.innerWidth) / 2) * -0.005}deg; 
+            --deg-Y: ${((e.clientY - window.innerHeight) / 2) * -0.01}deg;`,
     });
   });
+
   return (
     <div className="header__body">
       <div
@@ -33,7 +34,7 @@ const Header = () => {
               <div className="header-content__p">
                 Nature Retreats & Adventures
               </div>
-              <button>Start Exploring</button>
+              <button className="button__start">Start Exploring</button>
             </div>
           </div>
           <div className="layers__item layer-4"></div>
