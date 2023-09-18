@@ -8,10 +8,18 @@ import Book from "./components/book/Book";
 import Navbar from "./components/navbar/Navbar";
 
 function App() {
+  const scrollToSection = (sectionId) => {
+    const section = document.getElementById(sectionId);
+    if (section) {
+      section.scrollIntoView({
+        behavior: "smooth",
+      });
+    }
+  };
   return (
     <div className="App">
-      {/* <Navbar /> */}
-      <Header />
+      {/* <Navbar scrollToSection={scrollToSection} /> */}
+      <Header scrollToSection={scrollToSection} />
       {/* <Discover />
       <Features />
       <Book />

@@ -1,0 +1,33 @@
+.navbar__body {
+  --index: calc(1vh + 1vw);
+  --logo-size: calc(var(--index) * 2);
+}
+.navbar__container {
+  display: flex;
+  list-style: none;
+  position: fixed;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: calc(var(--index) * 0.65);
+}
+.navbar__item {
+  margin: calc(var(--index) * 0.2) calc(var(--index) * 2);
+  cursor: pointer;
+  position: relative;
+}
+.navbar__item-1 {
+  left: calc(var(--index) / -0.045);
+}
+.navbar__item-2 {
+  left: calc(var(--index) / -0.046);
+}
+.navbar__item-3 {
+  left: calc(var(--index) / -0.1);
+}
+.navbar__item-4 {
+  left: calc(var(--index) / -0.12);
+}
+.navbar__item:active {
+  transform: scale(0.95);
+}
