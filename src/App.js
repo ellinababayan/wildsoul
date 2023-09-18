@@ -5,7 +5,6 @@ import Footer from "./components/footer/Footer";
 import Features from "./components/features/Features";
 import Discover from "./components/discover/Discover";
 import Book from "./components/book/Book";
-import Navbar from "./components/navbar/Navbar";
 
 function App() {
   const scrollToSection = (sectionId) => {
@@ -18,10 +17,9 @@ function App() {
   };
   return (
     <div className="App">
-      {/* <Navbar scrollToSection={scrollToSection} /> */}
       <Header scrollToSection={scrollToSection} />
-      {/* <Discover />
-      <Features />
+      <Discover />
+      {/* <Features />
       <Book />
       <Footer /> */}
     </div>
