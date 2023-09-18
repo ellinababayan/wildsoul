@@ -31,7 +31,7 @@ const Header = () => {
           ></div>
           <div className="layers__item layer-3">
             <div className="header-content">
-              <h1>Wild Soul</h1>
+              <h1 className="header-content__h1">Wild Soul</h1>
               <div className="header-content__p">
                 Nature Retreats & Adventures
               </div>

@@ -1,6 +1,6 @@
 :root {
   --index: calc(1vh + 1vw);
-  --logo-size: calc(var(--index) * 5.8);
+  --logo-size: calc(var(--index) * 4);
 }
 @font-face {
   font-family: kamerik-3d;
@@ -72,32 +72,53 @@
   text-transform: uppercase;
   letter-spacing: calc(var(--index) * -0.15);
   line-height: 1.35em;
-  margin-top: calc(var(--index) * 2.5);
-  margin-bottom: 0;
-  box-shadow: rgba(0, 0, blue, alpha);
+  /* margin-top: calc(var(--index) * 1); */
+  /* margin-bottom: 0; */
+}
+.header-content__h1{
+  margin-bottom: calc(var(--index) * 2);
 }
 .header-content__p {
-  font-size: calc(var(--index) * .8);
+  font-size: calc(var(--index) * 0.8);
   font-family: merri-italic-3d;
   font-weight: 400;
   text-transform: none;
   letter-spacing: normal;
   line-height: 1;
 }
-.button__start{
+.button__start {
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 600;
   text-transform: uppercase;
-  font-size: calc(var(--index) * .71);
-  padding: calc(var(--index) * .71) calc(var(--index) * 1.25);
+  font-size: calc(var(--index) * 0.71);
+  padding: calc(var(--index) * 0.71) calc(var(--index) * 1.25);
   background-color: transparent;
   color: #fff;
   border-radius: 5rem;
-  border: rgba(255, 255, 255, .4) 3px solid;
+  border: rgba(255, 255, 255, 0.4) 3px solid;
   margin-top: calc(var(--index) * 2);
   outline: none;
   cursor: pointer;
 }
-.layer-4, .layer-5, .layer-6 {
+.button__start:hover {
+  animation-name: button-hover;
+  animation-duration: 0.5s;
+  animation-fill-mode: forwards;
+}
+.button__start:active {
+  transform: scale(0.98);
+}
+.layer-4,
+.layer-5,
+.layer-6 {
   pointer-events: none;
+}
+
+@keyframes button-hover {
+  from {
+    border: rgba(255, 255, 255, 0.4) 3px solid;
+  }
+  to {
+    border: rgba(255, 255, 255, 0.964) 3px solid;
+  }
 }
