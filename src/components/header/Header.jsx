@@ -1,5 +1,6 @@
 import React from "react";
 import "./Header.css";
+import "./rain"
 
 const Header = () => {
   document.addEventListener("mousemove", (e) => {
@@ -37,7 +38,9 @@ const Header = () => {
               <button className="button__start">Start Exploring</button>
             </div>
           </div>
-          <div className="layers__item layer-4"></div>
+          <div className="layers__item layer-4">
+            <canvas className="rain"></canvas>
+          </div>
           <div
             className="layers__item layer-5"
             style={{ backgroundImage: "url(img/layer-5.png)" }}
