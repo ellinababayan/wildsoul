@@ -39,7 +39,15 @@ const Header = (props) => {
               <div className="header-content__p">
                 Nature Retreats & Adventures
               </div>
-              <button className="button__start">Start Exploring</button>
+              <button
+                className="button__start"
+                onClick={(e) => {
+                  e.preventDefault();
+                  props.scrollToSection("discover");
+                }}
+              >
+                Start Exploring
+              </button>
             </div>
           </div>
           <div className="layers__item layer-4">
