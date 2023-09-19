@@ -31,3 +31,7 @@
 .navbar__item:active {
   transform: scale(0.95);
 }
+
+.scrolled_item{
+  color: black;
+}
