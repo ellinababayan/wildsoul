@@ -18,7 +18,7 @@ function App() {
   return (
     <div className="App">
       <Header scrollToSection={scrollToSection} />
-      <Discover />
+      <Discover scrollToSection={scrollToSection} />
       {/* <Features />
       <Book />
       <Footer /> */}

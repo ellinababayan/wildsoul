@@ -1,6 +1,5 @@
 .discover__body {
   position: relative;
-  height: 30vh;
 }
 .discover_header-h1 {
   margin-top: calc(var(--index) * 1.5);
@@ -15,8 +14,8 @@
   perspective: 1000px;
   overflow: hidden;
 }
-.layers {
-  height: 100vh;
+.layers_discover {
+  height: 80vh;
   min-height: 500px;
   transform-style: preserve-3d;
   transform: rotateX(var(--deg-Y)) rotateY(var(--deg-X));
@@ -48,10 +47,18 @@
   transform: scale(0.99);
   transition: 0.7s;
 }
-
 .discover-p {
   font-family: Georgia, Helvetica, sans-serif;
   font-size: calc(var(--index) * 0.8);
   line-height: calc(var(--index) * 1.4);
   color: rgb(69, 69, 69);
+}
+.scroll_down{
+  position: absolute;
+  cursor: pointer;
+  bottom:calc((var(--index)*(-1)));
+  left: calc(50% - calc(var(--logo-size) / 2) + var(--index));
+}
+.scroll_down-svg {
+  width: calc(var(--index) * 4);
 }
