@@ -19,8 +19,8 @@ function App() {
     <div className="App">
       <Header scrollToSection={scrollToSection} />
       <Discover scrollToSection={scrollToSection} />
-      {/* <Features />
-      <Book />
+       <Features />
+      {/*<Book />
       <Footer /> */}
     </div>
   );
