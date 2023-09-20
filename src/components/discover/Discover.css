@@ -62,3 +62,7 @@
 .scroll_down-svg {
   width: calc(var(--index) * 3);
 }
+.scroll_down-svg:hover{
+  transform: scale(1.05);
+  transition: 0.3s;
+}

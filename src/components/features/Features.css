@@ -18,6 +18,10 @@
   width: calc(var(--index) * 2);
   display: inline-block;
 }
+.features__item-svg:hover {
+transform: scale(1.1);
+transition: 0.3s;
+}
 .features {
   margin-top: calc(var(--index) * 2);
   opacity: 1;
