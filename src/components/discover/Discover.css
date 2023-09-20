@@ -16,7 +16,7 @@
   overflow: hidden;
 }
 .layers_discover {
-  height: 100vh;
+  /* height: 100vh; */
   min-height: 500px;
   transform-style: preserve-3d;
   transform: rotateX(var(--deg-Y)) rotateY(var(--deg-X));
