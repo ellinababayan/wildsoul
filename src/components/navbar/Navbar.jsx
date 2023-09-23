@@ -49,10 +49,10 @@ const Navbar = (props) => {
             className="nav"
             onClick={(e) => {
               e.preventDefault();
-              props.scrollToSection("book");
+              props.scrollToSection("plans");
             }}
           >
-            Book
+            Plans
           </a>
         </li>
         <li className="navbar__item navbar__item-4">
@@ -60,10 +60,10 @@ const Navbar = (props) => {
             className="nav"
             onClick={(e) => {
               e.preventDefault();
-              props.scrollToSection("contact");
+              props.scrollToSection("book");
             }}
           >
-            Contact
+            Book
           </a>
         </li>
       </ul>

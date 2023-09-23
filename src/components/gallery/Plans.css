@@ -1,0 +1,46 @@
+.plans__body {
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.plans__container {
+  padding: 1rem;
+}
+.plans_h1 {
+  margin-top: calc(var(--index) * 1.5);
+  color: white;
+  font-family: kamerik-3d;
+  font-size: calc(var(--index) * 1.5);
+  text-shadow: 1px 2px rgb(69, 69, 69);
+  opacity: 1;
+}
+.plans {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.plans__item {
+  background-color: rgba(251, 251, 251, 0.6);
+  margin: 3rem;
+  border-radius: 2em;
+}
+.plans__item-1 {
+}
+.plans__item-2 {
+}
+.plans__item-3 {
+}
+.plans__photo {
+  width: 25rem;
+  /* margin: 0.5rem 0; */
+border-radius: 2em;
+}
+.plans_header {
+}
+.plans_description {
+}
+.btn {
+}
+.btn--primary {
+}
+.btn--secondary {
+}

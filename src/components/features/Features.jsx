@@ -6,8 +6,12 @@ const Features = (props) => {
     <div
       className="features__body"
       id="features"
-      style={{ backgroundImage: "url(img/bg-5.jfif)" }}
+      // style={{ backgroundImage: "url(img/bg-5.jfif)" }}
     >
+      <video className="bg-video__content" autoPlay muted loop>
+        <source className="bg_video" src="img/retreat_bg.mp4" />
+        Video is not supported by browser
+      </video>
       <div className="features_header">
         <div className="features_header-h1">Why Choose Wild Soul?</div>
       </div>
@@ -151,7 +155,7 @@ const Features = (props) => {
             className="scroll_down"
             onClick={(e) => {
               e.preventDefault();
-              props.scrollToSection("features");
+              props.scrollToSection("plans");
             }}
           >
             <svg
