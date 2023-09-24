@@ -51,12 +51,16 @@ const Plans = () => {
                 </li>
               </span>
             </p>
-            <button type="submit" class="btn btn--primary">
+            <button className="btn" >
+              <span className="btn__visible">Book now</span>
+              <span className="btn__invisible">270$</span>
+            </button>
+            {/* <button type="submit" class="btn btn--primary">
               Book now
             </button>
             <button type="submit" class="btn btn--secondary">
               270$
-            </button>
+            </button> */}
           </div>
           <div className="plans__item plans__item-2">
             <img
@@ -83,12 +87,16 @@ const Plans = () => {
                 </li>
               </span>
             </p>
-            <button type="submit" class="btn btn--primary">
+            <button className="btn" >
+              <span className="btn__visible">Book now</span>
+              <span className="btn__invisible">350$</span>
+            </button>
+            {/* <button type="submit" class="btn btn--primary">
               Book now
             </button>
             <button type="submit" class="btn btn--secondary">
               350$
-            </button>
+            </button> */}
           </div>
           <div className="plans__item plans__item-3">
             <img
@@ -111,12 +119,16 @@ const Plans = () => {
                 </li>
               </span>
             </p>
-            <button type="submit" class="btn btn--primary">
+            <button className="btn" >
+              <span className="btn__visible">Book now</span>
+              <span className="btn__invisible">580$</span>
+            </button>
+            {/* <button type="submit" class="btn btn--primary">
               Book now
             </button>
             <button type="submit" class="btn btn--secondary">
               580$
-            </button>
+            </button> */}
           </div>
         </section>
       </div>

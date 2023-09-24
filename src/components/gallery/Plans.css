@@ -43,51 +43,30 @@
   text-transform: uppercase;
 }
 .plans_header {
+  font-family: kamerik-3d;
+  font-size: calc(var(--index) * 0.9);
 }
 .plans_description {
 }
 .plan__bullet {
   list-style: none;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: calc(var(--index)*0.6)
+  font-size: calc(var(--index) * 0.6);
 }
 .plan__bullet-item {
   padding: 0.5rem;
 }
-.btn {
-  margin-bottom: calc(var(--index)*1); 
-  font-family: Arial, Helvetica, sans-serif;
-  font-weight: 600;
-  text-transform: uppercase;
-  font-size: calc(var(--index) * 0.71);
-  padding: calc(var(--index) * 0.71) calc(var(--index) * 1.25);
-  background-color: #5f9b6d;
-  color: white;
-  border-radius: 5rem;
-  border: #5f9b6d 3px solid;
-  border: none;
-  margin-top: calc(var(--index) * 2);
-  outline: none;
-  cursor: pointer;
-}
-.btn:hover {
-  background-color: transparent;
-  color: #5f9b6d;
-  border: #5f9b6d 3px solid;
-  transition: 0.2s;
-}
-.btn--primary {
-}
-.btn--secondary {
-  display: none;
-}
+
+/*  */
+
+/*  */
 
 .discover_bg {
   perspective: 1000px;
   overflow: hidden;
 }
 .layers_plan {
-  height: 150vh;
+  height: 130vh;
   min-height: 500px;
   transform-style: preserve-3d;
   transform: rotateX(var(--deg-Y)) rotateY(var(--deg-X));
@@ -105,4 +84,49 @@
 }
 .layer-8 {
   transform: rotateX(180deg) scale(0.8);
+}
+
+/* Button styling  */
+
+.btn {
+  margin-bottom: calc(var(--index) * 1);
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: calc(var(--index) * 0.71);
+  padding: calc(var(--index) * 0.71) calc(var(--index) * 1.25);
+  background-color: #5f9b6d;
+  border: #5f9b6d 3px solid;
+  outline: none;
+  cursor: pointer;
+  border-radius: 10rem;
+  color: #fff;
+  position: relative;
+  overflow: hidden;
+}
+.btn > * {
+  display: inline-block;
+  transition: all 0.3s;
+}
+.btn:hover {
+  background-color: transparent;
+  color: #5f9b6d;
+  border: #5f9b6d 3px solid;
+  transition: 0.2s;
+}
+.btn__invisible {
+  position: absolute;
+  top: -100%;
+}
+.btn:hover .btn__invisible {
+  top: calc(var(--index) * 0.8);
+  left: 40%;
+}
+.btn:hover .btn__visible {
+  transform: translateY(1500%);
+}
+.btn:focus {
+  outline: none;
+  -webkit-animation: pulsate 1s;
+  animation: pulsate 1s;
 }
