@@ -25,7 +25,7 @@
   margin-top: calc(var(--index) * 5.5);
 }
 .plans__item {
-  background-color: rgba(251, 251, 251, 0.6);
+  background-color: rgba(233, 233, 233, 0.6);
   margin: 3rem;
   border-radius: 2em;
   box-shadow: 2px 2px rgba(182, 181, 181, 0.6);
@@ -35,9 +35,9 @@
   border-radius: 2em;
 }
 .plan__message {
-  font-size: calc(var(--index) * 0.6);
+  font-size: calc(var(--index) * 0.55);
   font-family: Arial, Helvetica, sans-serif;
-  font-style: italic;
+  /* font-style: italic; */
   color: rgb(63, 103, 183);
   font-weight: 900;
   text-transform: uppercase;
@@ -47,19 +47,19 @@
   font-size: calc(var(--index) * 0.9);
 }
 .plans_description {
+  padding: calc(var(--index)*0.5);
 }
 .plan__bullet {
   list-style: none;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: calc(var(--index) * 0.6);
+  text-transform: uppercase;
+  font-size: calc(var(--index) * 0.53);
+  font-weight: 500;
 }
 .plan__bullet-item {
-  padding: 0.5rem;
+  padding: calc(var(--index)*0.5);
+  border-bottom: 1px solid rgb(176, 176, 176);
 }
-
-/*  */
-
-/*  */
 
 .discover_bg {
   perspective: 1000px;

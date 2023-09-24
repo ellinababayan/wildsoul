@@ -23,7 +23,6 @@ const Plans = () => {
         </div>
         <h1 className="plans_h1">Check Out Retreat Plans</h1>
         <section className="plans">
-          {" "}
           <div className="plans__item plans__item-1">
             <img
               src="https://www.vitacost.com/blog/wp-content/uploads/2019/05/Outdoor-Yoga-How-to-Practice-Yoga-Outside.jpg"
@@ -55,12 +54,6 @@ const Plans = () => {
               <span className="btn__visible">Book now</span>
               <span className="btn__invisible">270$</span>
             </button>
-            {/* <button type="submit" class="btn btn--primary">
-              Book now
-            </button>
-            <button type="submit" class="btn btn--secondary">
-              270$
-            </button> */}
           </div>
           <div className="plans__item plans__item-2">
             <img
@@ -91,12 +84,6 @@ const Plans = () => {
               <span className="btn__visible">Book now</span>
               <span className="btn__invisible">350$</span>
             </button>
-            {/* <button type="submit" class="btn btn--primary">
-              Book now
-            </button>
-            <button type="submit" class="btn btn--secondary">
-              350$
-            </button> */}
           </div>
           <div className="plans__item plans__item-3">
             <img
@@ -123,12 +110,6 @@ const Plans = () => {
               <span className="btn__visible">Book now</span>
               <span className="btn__invisible">580$</span>
             </button>
-            {/* <button type="submit" class="btn btn--primary">
-              Book now
-            </button>
-            <button type="submit" class="btn btn--secondary">
-              580$
-            </button> */}
           </div>
         </section>
       </div>
