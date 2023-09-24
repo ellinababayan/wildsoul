@@ -6,11 +6,24 @@ const Plans = () => {
     <div
       className="plans__body"
       id="plans"
-      style={{ backgroundImage: "url(img/bg-5.jfif)" }}
+      // style={{ backgroundImage: "url(img/bg-5.jfif)" }}
     >
       <div className="plans__container">
+        <div className="discover_bg">
+          <div className="layers_plan">
+            <div
+              className="layers__item layer-5"
+              style={{ backgroundImage: "url(img/layer-5.png)" }}
+            ></div>
+            <div
+              className="layers__item layer-8"
+              style={{ backgroundImage: "url(img/layer-5.png)" }}
+            ></div>
+          </div>
+        </div>
         <h1 className="plans_h1">Check Out Retreat Plans</h1>
         <section className="plans">
+          {" "}
           <div className="plans__item plans__item-1">
             <img
               src="https://www.vitacost.com/blog/wp-content/uploads/2019/05/Outdoor-Yoga-How-to-Practice-Yoga-Outside.jpg"
@@ -90,7 +103,7 @@ const Plans = () => {
                 <li className="plan__bullet-item">Bali's tropical paradise</li>
                 <li className="plan__bullet-item">Savor local cuisine</li>
                 <li className="plan__bullet-item">
-                  Secure your spot and take advantage of special pricing offers
+                  Secure your spot and enjoy special price
                 </li>
                 <li className="plan__bullet-item">Revive body and soul</li>
                 <li className="plan__bullet-item">
