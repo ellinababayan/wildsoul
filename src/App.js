@@ -22,8 +22,8 @@ function App() {
       <Discover scrollToSection={scrollToSection} />
       <Features scrollToSection={scrollToSection} />
       <Plans scrollToSection={scrollToSection} />
-      {/*<Book />
-      <Footer /> */}
+      <Book scrollToSection={scrollToSection} />
+      {/*<Footer /> */}
     </div>
   );
 }

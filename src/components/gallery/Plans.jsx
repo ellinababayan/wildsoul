@@ -3,11 +3,7 @@ import "./Plans.css";
 
 const Plans = (props) => {
   return (
-    <div
-      className="plans__body"
-      id="plans"
-      // style={{ backgroundImage: "url(img/bg-5.jfif)" }}
-    >
+    <div className="plans__body" id="plans">
       <div className="plans__container">
         <div className="discover_bg">
           <div className="layers_plan">
@@ -43,7 +39,7 @@ const Plans = (props) => {
                   Daily sessions for inner peace and clarity
                 </li>
                 <li className="plan__bullet-item">
-                  All-level yoga classes with experienced instructors
+                  All-level yoga classes with instructors
                 </li>
                 <li className="plan__bullet-item">
                   Connect with like-minded souls

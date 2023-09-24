@@ -1,0 +1,28 @@
+.book__body {
+  height: 80vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.book__header {
+  margin-top: calc(var(--index) * 1.5);
+  padding-top: calc(var(--index) * 2);
+  color: white;
+  text-shadow: 2px 2px rgb(69, 69, 69);
+  font-family: kamerik-3d;
+  font-size: calc(var(--index) * 2);
+}
+.book {
+  height: 50vh;
+  background-color: rgba(255, 255, 255, 0.8);
+  margin: calc(var(--index) * 2) calc(var(--index) * 10);
+  border-radius: 5rem;
+  box-shadow: 2px 2px rgb(69, 69, 69);
+}
+.book__container {
+}
+.book__form {
+}
+label {
+}
+input {
+}
