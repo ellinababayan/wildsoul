@@ -10,10 +10,7 @@ const Discover = (props) => {
       <section className="discover">
         <div className="discover__container">
           <div className="discover_bg">
-            {/* <video className="bg-video__content" autoPlay muted loop>
-              <source className="bg_video" src="img/retreat_bg.mp4" />
-              Video is not supported by browser
-            </video> */}
+            
             <div className="layers_discover">
               <div
                 className="layers__item layer-5"
