@@ -60,3 +60,19 @@
   padding: calc(var(--index) * 1);
   margin-top: calc(var(--index) * -0.5);
 }
+
+@media only screen and (max-width: 1000px) {
+  .features__container {
+    grid-template-columns: 1fr 1fr;
+  }
+  .features__item {
+    margin: calc(var(--index) * 1);
+  }
+  .bg-video__content {
+    width: unset;
+    height: 70vh;
+  }
+  .scroll_down {
+    bottom: calc((var(--index) * (-5)));
+  }
+}

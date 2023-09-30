@@ -47,7 +47,7 @@
   font-size: calc(var(--index) * 0.9);
 }
 .plans_description {
-  padding: calc(var(--index)*0.5);
+  padding: calc(var(--index) * 0.5);
 }
 .plan__bullet {
   list-style: none;
@@ -57,7 +57,7 @@
   font-weight: 500;
 }
 .plan__bullet-item {
-  padding: calc(var(--index)*0.5);
+  padding: calc(var(--index) * 0.5);
   border-bottom: 1px solid rgb(176, 176, 176);
 }
 
@@ -129,4 +129,22 @@
   outline: none;
   -webkit-animation: pulsate 1s;
   animation: pulsate 1s;
+}
+.scroll_down-plans {
+  position: absolute;
+  cursor: pointer;
+  bottom: calc((var(--index) * (-4)));
+}
+
+@media only screen and (max-width: 1000px) {
+  .layers_plan {
+    height: 190vh;
+  }
+  .plans {
+    display: block;
+    left: 25%;
+  }
+  .scroll_down-plans {
+    bottom: calc((var(--index) * (1.5)));
+  }
 }

@@ -109,7 +109,7 @@ const Plans = (props) => {
           </div>
         </section>
         <a
-          className="scroll_down"
+          className="scroll_down-plans"
           onClick={(e) => {
             e.preventDefault();
             props.scrollToSection("book");
