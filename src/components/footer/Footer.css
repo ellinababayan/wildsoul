@@ -1,11 +1,18 @@
 .footer__body {
   background-color: rgb(69, 69, 69);
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 1.5rem;
 }
 .footer__container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
 .footer__copyright {
+  color: #fff;
 }
-.footer__contact {
-}
+
 .footer__link {
+  text-decoration: none;
+  color: #fff;
 }
