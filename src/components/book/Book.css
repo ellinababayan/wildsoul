@@ -12,21 +12,44 @@
   font-size: calc(var(--index) * 2);
 }
 .book {
-  height: 50vh;
   background-color: rgba(255, 255, 255, 0.8);
   margin: calc(var(--index) * 2) calc(var(--index) * 10);
   border-radius: 5rem;
   box-shadow: 2px 2px rgb(69, 69, 69);
 }
 .book__container {
+  padding: calc(var(--index) * 2) calc(var(--index) * 7);
 }
 .book__form {
+  display: block;
+  width: 40%;
+  margin: auto;
 }
 label {
+  display: block;
+  text-align: left;
+  padding-bottom: calc(var(--index)*0.3);
+  font-family: kamerik-3d;
+  font-size: calc(var(--index) * 0.6);
+  color: rgb(69, 69, 69);
 }
 input {
+  width: 100%;
+  height: calc(var(--index) * 2);
+  margin-bottom: calc(var(--index) * 0.7);
+  border-radius: 0.5rem;
+  border: none;
+  padding-left: 1rem;
 }
-.scroll_down-book{
+input:focus {
+  outline: none;
+  border: 2px solid #5f9b6d;
+}
+.btn-submit-form {
+  display: block;
+  left: calc(50% - calc(var(--logo-size) / 1.2) + var(--index));
+}
+.scroll_down-book {
   position: absolute;
   cursor: pointer;
   left: calc(50% - calc(var(--logo-size) / 2) + var(--index));

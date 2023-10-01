@@ -20,7 +20,6 @@ const Features = (props) => {
           <div className="features__item features__item-1">
             <h3 className="features__item-heading">Nature Immersion</h3>
             <div className="features__item-svg">
-              
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 data-name="Layer 1"
@@ -87,9 +86,9 @@ const Features = (props) => {
               </svg>
             </div>
             <p className="features__item-desciption">
-              Experience holistic healing practices that cater to both your
-              mental and physical health. Our expert guides and facilitators are
-              here to support your journey towards balance and well-being.
+              Experience holistic healing practices that cater to your mental
+              and physical health. Our expert guides are here to support your
+              journey towards well-being.
             </p>
           </div>
           <div className="features__item features__item-3">

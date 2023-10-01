@@ -13,28 +13,28 @@ const Book = (props) => {
         <div className="book__container">
           <div className="book__form">
             <form>
-              <label htmlFor="firstName">First Name:</label>
+              <label htmlFor="firstName">First Name</label>
               <input
                 type="text"
                 id="firstName"
                 name="firstName"
                 placeholder="John"
               />
-              <label htmlFor="lastName">Last Name:</label>
+              <label htmlFor="lastName">Last Name</label>
               <input
                 type="text"
                 id="lastName"
                 name="lastName"
                 placeholder="Smith"
               />
-              <label htmlFor="email">Email:</label>
+              <label htmlFor="email">Email</label>
               <input
                 type="email"
                 id="email"
                 name="email"
-                placeholder="test@gmail.com"
+                placeholder="example@gmail.com"
               />
-              <button type="submit" className="btn">
+              <button type="submit" className="btn btn-submit-form">
                 Submit
               </button>
             </form>
