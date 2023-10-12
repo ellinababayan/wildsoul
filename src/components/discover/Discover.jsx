@@ -45,7 +45,6 @@ const Discover = (props) => {
               y="0px"
               className="scroll_down-svg"
             >
-              <title>ui-dan-edition_final_200106_outlined</title>
               <path
                 d="M27,10.32v2.06a12,12,0,1,1-4-.33v12l-2.19-2.19L19.4,23.28l3.53,3.54a1.48,1.48,0,0,0,2.06.05l.06-.05,3.54-3.54-1.41-1.41-.18.18-2,2V8H23v2.05a13.93,13.93,0,1,0,4,.27Z"
                 fill="#5f9b6d"
