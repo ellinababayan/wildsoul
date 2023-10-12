@@ -12,6 +12,7 @@ const Footer = () => {
           <a
             className="footer__link"
             href="https://www.linkedin.com/in/ellina-babaian/"
+            target="_blank"
           >
             Contact Us
           </a>
