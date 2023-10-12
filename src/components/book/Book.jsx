@@ -39,6 +39,13 @@ const Book = (props) => {
               </button>
             </form>
           </div>
+          {/* <div className="book__photo"> */}
+            <img
+              src="https://hotspringslodgecr.com/wp-content/uploads/2019/03/yoga-costa-rica.jpg"
+              alt="Mature retreat photo"
+              className="book__photo-img"
+            />
+          {/* </div> */}
         </div>
       </section>
       <a

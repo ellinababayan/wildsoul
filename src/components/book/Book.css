@@ -16,14 +16,17 @@
   background-color: rgba(255, 255, 255, 0.8);
   margin: calc(var(--index) * 2) calc(var(--index) * 10);
   border-radius: 5rem;
-  box-shadow: 2px 2px rgb(69, 69, 69);
+  box-shadow: 5px 5px rgba(69, 69, 69, 0.43);
+  border: 3px solid rgba(255, 255, 255, 0.8);
 }
 .book__container {
-  padding: calc(var(--index) * 2) calc(var(--index) * 7);
+  /* padding: calc(var(--index) * 2) calc(var(--index) * 2); */
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
 .book__form {
   display: block;
-  width: 40%;
+  /* width: 40%; */
   margin: auto;
 }
 label {
@@ -49,6 +52,10 @@ input:focus {
 .btn-submit-form {
   display: block;
   left: calc(50% - calc(var(--logo-size) / 1.2) + var(--index));
+}
+.book__photo-img{
+  width: calc(var(--index)*30);
+  border-radius: 5rem;
 }
 .scroll_down-book {
   position: absolute;
