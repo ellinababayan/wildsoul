@@ -6,7 +6,15 @@ const Footer = () => {
     <div className="footer__body">
       <div className="footer__container">
         <p className="footer__copyright">
-          Copyright &copy;Ellina Babaian 2023. All Rights Reserved.
+          Copyright &copy;
+          <a
+            className="personal_link"
+            href="https://www.linkedin.com/in/ellina-babaian/"
+            target="_blank"
+          >
+            Ellina Babaian
+          </a>
+          &nbsp; 2023. All Rights Reserved.
         </p>
         <p className="footer__contact">
           <a
