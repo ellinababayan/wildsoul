@@ -53,7 +53,7 @@ const Plans = (props) => {
           </div>
           <div className="plans__item plans__item-2">
             <img
-              src="https://www.mytravelbackpack.com/wp-content/uploads/2019/12/images2201-5e04e2aed5657.jpg"
+              src="https://lp-cms-production.imgix.net/2021-12/GettyImages-675834103.jpg"
               alt="plan_photo2"
               className="plans__photo"
             />
