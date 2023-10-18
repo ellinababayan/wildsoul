@@ -133,7 +133,8 @@
 .scroll_down-plans {
   position: absolute;
   cursor: pointer;
-  bottom: calc((var(--index) * (-4)));
+  /* bottom: calc((var(--index) * (-4))); */
+  bottom: 0;
 }
 
 @media only screen and (max-width: 1000px) {
