@@ -61,7 +61,7 @@
   margin-top: calc(var(--index) * -0.5);
 }
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 1200px) {
   .features__container {
     grid-template-columns: 1fr 1fr;
   }
@@ -70,9 +70,10 @@
   }
   .bg-video__content {
     width: unset;
-    height: 70vh;
+    height: 80vh;
   }
   .scroll_down {
-    bottom: calc((var(--index) * (-5)));
+    bottom: calc((var(--index) * (-3)));
   }
+  
 }
