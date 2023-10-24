@@ -2,12 +2,19 @@ import React from "react";
 import "./Navbar.css";
 
 const Navbar = (props) => {
-  window.onscroll = () => {scrollNavbar()}
+  window.onscroll = () => {
+    scrollNavbar();
+  };
   const scrollNavbar = () => {
     const navbar = document.getElementsByClassName("navbar__body");
     const links = document.getElementsByClassName("navbar__container");
-  
-    if (document.documentElement.scrollTop > 700) {
+
+    if (document.documentElement.scrollTop > 3100) {
+      for (let i = 0; i < links.length; i++) {
+        links[i].classList.remove("scrolled_item");
+        console.log("print");
+      }
+    } else if (document.documentElement.scrollTop > 700) {
       // Iterate over each link element and add the class to each one.
       for (let i = 0; i < links.length; i++) {
         links[i].classList.add("scrolled_item");
