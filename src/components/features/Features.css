@@ -1,6 +1,6 @@
 .features__body {
   position: relative;
-  margin-top: calc(var(--index) * 3);
+  /* margin-top: calc(var(--index) * 3); */
   padding-top: calc(var(--index) * 2);
   background-repeat: no-repeat;
   background-size: cover;
