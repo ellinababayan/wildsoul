@@ -56,7 +56,7 @@
 .scroll_down{
   position: absolute;
   cursor: pointer;
-  bottom:calc((var(--index)*(-1)));
+  bottom:calc((var(--index)*(-2.5)));
   left: calc(50% - calc(var(--logo-size) / 2) + calc(var(--index)) /2);
 }
 .scroll_down-svg {
