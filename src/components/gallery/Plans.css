@@ -143,11 +143,12 @@
   }
   .plans {
     display: block;
-    left: calc(50% - calc(var(--plan-photo-size) / 2));
+    left: calc(50% - calc(var(--plan-photo-size) / 2) - var(--index));
     top: 1rem;
   }
   .layers_plan{
-    height: 250vh;
+    /* height: 250vh; */
+    /* height: auto; */
   }
 }
 @media only screen and (max-width: 1000px) {
@@ -156,7 +157,7 @@
   }
   .plans {
     display: block;
-    left: calc(50% - calc(var(--plan-photo-size) / 2));
+    left: calc(50% - calc(var(--plan-photo-size) / 2) - var(--index));
   }
   .scroll_down-plans {
     bottom: calc((var(--index) * (1.5)));
