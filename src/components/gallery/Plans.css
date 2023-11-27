@@ -31,7 +31,7 @@
   box-shadow: 2px 2px rgba(182, 181, 181, 0.6);
 }
 .plans__photo {
-  width: 25rem;
+  width: var(--plan-photo-size);
   border-radius: 2em;
 }
 .plan__message {
@@ -143,7 +143,8 @@
   }
   .plans {
     display: block;
-    left: 30%;
+    /* left: 30%; */
+    left: calc(50% - calc(var(--plan-photo-size) / 2) - var(--index));
     top: 1rem;
   }
   .layers_plan{
