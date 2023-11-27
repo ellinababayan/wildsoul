@@ -48,7 +48,7 @@ const Book = (props) => {
           {/* </div> */}
         </div>
       </section>
-      <a
+      {/* <a
         className="scroll_down-book"
         onClick={(e) => {
           e.preventDefault();
@@ -75,7 +75,7 @@ const Book = (props) => {
             fontFamily="'Helvetica Neue', Helvetica, Arial-Unicode, Arial, Sans-serif"
           ></text>
         </svg>
-      </a>
+      </a> */}
     </div>
   );
 };
