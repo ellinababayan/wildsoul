@@ -5,7 +5,7 @@
   padding-bottom: 2rem;
 }
 .book__header {
-  margin-top: calc(var(--index) * 1.5);
+  /* margin-top: calc(var(--index) * 1.5); */
   padding-top: calc(var(--index) * 2);
   color: white;
   text-shadow: 2px 2px rgb(69, 69, 69);
@@ -63,9 +63,29 @@ input:focus {
   left: calc(50% - calc(var(--logo-size) / 2) + var(--index));
 }
 @media only screen and (max-width: 1200px) {
+ .book {
+    margin: calc(var(--index) * 2) calc(var(--index) * 5);
+  } 
   .book__body{
-    height: 65vh;
+    height: 75vh;
   }
   .book__photo-img {
-    width: calc(var(--index)*25);}
+    min-width: calc(var(--index)*25); 
+  }
+  input {
+      width: unset;
+  }
+  .book__form {
+    margin-top: calc(var(--index) * 3);
+    margin-left: calc(var(--index) * 3);
+  }
 }
+@media only screen and (max-width: 1000px) {
+  .book {
+    margin: calc(var(--index) * 2) calc(var(--index) * 4);
+}}
+
+@media only screen and (max-width: 900px) {
+  .book {
+    margin: calc(var(--index) * 2) calc(var(--index) * 2);
+  }}

@@ -76,12 +76,19 @@
     margin: calc(var(--index) * 1);
   }
   .bg-video__content {
-    width: unset;
-    height: 80vh;
+    /* min-width: 100%;
+    min-height: 100%; */
+    width: 100%;
   }
   .scroll_down {
     bottom: calc((var(--index) * (-3)));
   }
 }
 
+@media only screen and (max-width: 1000px) {
+  .bg-video__content {
+    min-width: 100%;
+    min-height: 100%;
+  }
+}
 
