@@ -1,11 +1,9 @@
 .plans__body {
   overflow: hidden;
   position: relative;
-  margin-top: 7.7rem;
+  margin-top: calc(var(--index)*4);
 }
-/* .plans__container {
-  padding: 1rem;
-} */
+
 .plans_h1 {
   margin-top: calc(var(--index) * 4);
   color: rgb(69, 69, 69);
@@ -21,12 +19,12 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   position: absolute;
-  top: 6rem;
-  margin-top: calc(var(--index) * 5.5);
+  top: calc(var(--index)*3);
+  margin-top: calc(var(--index) * 4);
 }
 .plans__item {
   background-color: rgba(233, 233, 233, 0.6);
-  margin: 3rem;
+  margin: calc(var(--index)) calc(var(--index) * 2.5);
   border-radius: 2em;
   box-shadow: 2px 2px rgba(182, 181, 181, 0.6);
 }
@@ -136,6 +134,9 @@
   /* bottom: calc((var(--index) * (-4))); */
   bottom: 0;
 }
+
+/* Resposive design */
+
 @media only screen and (max-width: 1200px) {
   .plans_h1 {
     margin-top: calc(var(--index) * 0.5);
