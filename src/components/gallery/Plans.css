@@ -139,12 +139,11 @@
 @media only screen and (max-width: 1200px) {
   .plans_h1 {
     margin-top: calc(var(--index) * 0.5);
-    left: 32%
+    text-align: center;
   }
   .plans {
     display: block;
-    /* left: 30%; */
-    left: calc(50% - calc(var(--plan-photo-size) / 2) - var(--index));
+    left: calc(50% - calc(var(--plan-photo-size) / 2));
     top: 1rem;
   }
   .layers_plan{
@@ -157,7 +156,7 @@
   }
   .plans {
     display: block;
-    left: 25%;
+    left: calc(50% - calc(var(--plan-photo-size) / 2));
   }
   .scroll_down-plans {
     bottom: calc((var(--index) * (1.5)));
