@@ -2,7 +2,8 @@
   --index: calc(1vh + 1vw);
   --logo-size: calc(var(--index) * 4);
   --plan-photo-size: calc((var(--index)) * 20);
-  --plans-container-height: calc(var(--index)*100);
+  --plans-container-height-big: calc(var(--index)*100);
+  --plans-container-height-small: calc(var(--index)*40);
 }
 @font-face {
   font-family: kamerik-3d;

@@ -27,7 +27,7 @@
 .book__form {
   display: block;
   /* width: 40%; */
-  margin: auto;
+  margin: calc(var(--index)*2);
 }
 label {
   display: block;
@@ -52,6 +52,7 @@ input:focus {
 .btn-submit-form {
   display: block;
   left: calc(50% - calc(var(--logo-size) / 1.2) + var(--index));
+margin: calc(var(--index));
 }
 .book__photo-img{
   width: calc(var(--index)*30);
@@ -72,9 +73,9 @@ input:focus {
   .book__photo-img {
     min-width: calc(var(--index)*25); 
   }
-  input {
+ /* input {
       width: unset;
-  }
+  } */
   .book__form {
     margin-top: calc(var(--index) * 3);
     margin-left: calc(var(--index) * 3);
@@ -83,9 +84,14 @@ input:focus {
 @media only screen and (max-width: 1000px) {
   .book {
     margin: calc(var(--index) * 2) calc(var(--index) * 4);
-}}
+}
+
+}
 
 @media only screen and (max-width: 900px) {
   .book {
     margin: calc(var(--index) * 2) calc(var(--index) * 2);
-  }}
+  }
+  input {
+  width: unset;
+}}

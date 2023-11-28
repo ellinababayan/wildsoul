@@ -1,7 +1,8 @@
 .plans__body {
   overflow: hidden;
   position: relative;
-  margin-top: calc(var(--index)*4);
+  margin-top: calc(var(--index)*10);
+  height: calc(var(--plans-container-height-small) + var(--index)*4);
 }
 
 .plans_h1 {
@@ -21,11 +22,11 @@
   position: absolute;
   top: calc(var(--index)*3);
   margin-top: calc(var(--index) * 4);
-  height: var(--plans-container-height);
+  height: calc(var(--plans-container-height-small) + var(--index)*2);
 }
 .plans__item {
   background-color: rgba(233, 233, 233, 0.6);
-  margin: calc(var(--index)) calc(var(--index) * 2.5);
+  margin: calc(var(--index)) calc(var(--index) * 1.5);
   border-radius: 2em;
   box-shadow: 2px 2px rgba(182, 181, 181, 0.6);
 }
@@ -141,6 +142,14 @@
 /* Resposive design */
 
 @media only screen and (max-width: 1200px) {
+  .plans__body {
+    overflow: hidden;
+    position: relative;
+    margin-top: calc(var(--index)*5);
+    height: calc(var(--plans-container-height-big) + var(--index)*4);
+
+  }
+
   .plans_h1 {
     margin-top: calc(var(--index) * 2.5);
     margin-bottom: calc(var(--index) * 2.5);
@@ -150,12 +159,18 @@
     display: block;
     left: calc(50% - calc(var(--plan-photo-size) / 2) - var(--index));
     top: 1rem;
+    height: calc(var(--plans-container-height-big) + var(--index)*2);
   }
   .layers_plan{
     height: calc(var(--plans-container-height) + var(--index)*5)
   }
 }
 @media only screen and (max-width: 1000px) {
+  .plans__body {
+    overflow: hidden;
+    position: relative;
+    margin-top: calc(var(--index)*3);
+  }
   .plans {
     display: block;
     left: calc(50% - calc(var(--plan-photo-size) / 2) - var(--index));
