@@ -14,7 +14,7 @@
   opacity: 1;
   position: absolute;
   top: 1rem;
-  left: 35%;
+  left: 34%;
 }
 .plans {
   display: grid;
@@ -135,8 +135,8 @@
 .scroll_down-plans {
   position: absolute;
   cursor: pointer;
-  /* bottom: calc((var(--index) * (-4))); */
   bottom: 0;
+  left: calc(50% - calc(var(--scroll_down_width) / 2) + var(--index));
 }
 
 /* Resposive design */
@@ -163,6 +163,9 @@
   }
   .layers_plan{
     height: calc(var(--plans-container-height) + var(--index)*5)
+  }
+  .scroll_down-plans {
+    bottom: calc((var(--index) * (-1)));
   }
 }
 @media only screen and (max-width: 1000px) {

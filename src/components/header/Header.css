@@ -4,6 +4,7 @@
   --plan-photo-size: calc((var(--index)) * 20);
   --plans-container-height-big: calc(var(--index)*100);
   --plans-container-height-small: calc(var(--index)*40);
+  --scroll_down_width: calc(var(--index) * 3);
 }
 @font-face {
   font-family: kamerik-3d;

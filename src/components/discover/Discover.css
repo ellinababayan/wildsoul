@@ -60,7 +60,8 @@
   left: calc(50% - calc(var(--logo-size) / 2) + calc(var(--index)) /2);
 }
 .scroll_down-svg {
-  width: calc(var(--index) * 3);
+  /* width: calc(var(--index) * 3); */
+  width: var(--scroll_down_width);
 }
 .scroll_down-svg:hover{
   transform: scale(1.05);
